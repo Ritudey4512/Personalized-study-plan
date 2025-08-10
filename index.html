@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personalized Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>
+      <span class="header-sticker">📖</span>
+      Personalized Study Planner
+      <span class="header-sticker">🧠</span>
+    </h1>
+  </header>
+
+  <section>
+    <h2>Weekly Study Calendar</h2>
+    <div id="reward-message">🎉 You completed your goals! 🎉</div>
+    <div id="calendar"></div>
+  </section>
+
+  <section>
+    <h2>Study Timer</h2>
+    <div id="timer-display">00:00:00</div>
+    <button id="start-timer">Start</button>
+    <button id="stop-timer" disabled>Stop</button>
+    <button id="reset-timer" disabled>Reset</button>
+  </section>
+
+  <section>
+    <h2>Motivational Quote</h2>
+    <blockquote id="motivational-quote"></blockquote>
+    <button id="new-quote">New Quote</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
